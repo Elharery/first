@@ -164,7 +164,7 @@ position: relative;
 }
 /* start section*/
 .content-center .continer{
-    background-image: url("programming\ 1.jpg");
+    background-image: url("../images/programming1.jpg");
     background-size: cover;
     height: calc(100vh - 50.38px);
 }
