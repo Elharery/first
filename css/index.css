@@ -1,0 +1,344 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor:darkorange;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* media */
+@media (min-width:991px){
+    .continer ul {
+        visibility: visible;
+    }
+}
+@media(min-width:768px)and(max-width:990px){
+    .continer ul{
+        visibility: hidden;
+    }
+    /* .cont-test ul{
+        list-style: none;
+        position: relative;
+        display: flex;
+        top: -110px;
+        left: 590px;
+        width: fit-content;
+        visibility: visible;
+    } */
+}
+@media (max-width:767px){
+    .continer .logo .nackename{
+        position: relative;
+        top: 25px;
+    }
+    .header  {
+        padding: 0;
+        margin-right: 0px;
+    }
+    /* .header .continer {
+        display: block;
+    } */
+    /* .continer ul{
+        position: relative;
+        left: 110px;
+        
+        top: -40px;
+        width: fit-content;
+    } */
+    /* .cont-test ul{
+        list-style: none;
+        position: relative;
+        display: flex;
+        top: -110px;
+        left: 590px;
+        width: fit-content;
+        visibility: hidden;
+    } */
+    .content-center .continer{
+        margin-top: -20px;
+    }
+    .continer ul{
+        display: flex;
+        list-style: none;
+        position: relative;
+        right: -147px;
+        top: -26px;
+        width: fit-content;
+        transition: .3s;
+        visibility: visible;
+    }
+
+    /* .continer ul:hover li a{
+        transform: scale(1.1);
+    } */
+    /* ----- */
+}
+/* end media */
+.header{
+    padding: 0px;
+}
+.header .continer{
+padding-left: 15px;
+    padding-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-transform: capitalize;
+    display: flex;
+    background-color: #fff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.continer .logo{
+    font-size: 25px;
+        font-weight: 800;
+}
+.continer .logo .nackename{
+color: var(--maincolor);
+    position: relative;
+    top: 12px;
+    right: 100px;
+}
+
+.continer .logo .name{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    right: 15px;
+}
+/* .continer .links{
+    width: fit-content;
+} */
+.continer ul{
+                /* display: flex;
+                    list-style: none;
+                    position: relative;
+                    right: -130px;
+                    top: -38px;
+                    width: fit-content; 
+                    position: relative;
+                    left: 500px; */
+                    display: flex;
+                        position: relative;
+                        list-style: none;
+
+}
+.header .continer .links ul li{
+    transition: .5s;
+}
+.header .continer .links ul li:hover{
+    transform: translateY(-10px);
+    /* transform: scale(1.1) rotate(5deg); */
+}
+/* .header .continer .links ul li a:hover{
+    color: var(--maincolor);
+} */
+.cont-test ul{
+    list-style: none;
+position: relative;
+    display: flex;
+    top: -110px;
+    left: 605px;
+    width: fit-content;
+}
+.cont-test  ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.continer .links ul li a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 10px;
+}
+/* start section*/
+.content-center .continer{
+    background-image: url(../images/programming\ 1.jpg);
+    background-size: cover;
+    height: calc(100vh - 50.38px);
+}
+.content-center .continer h2{
+    margin: 0;
+        color: var(--maincolor);
+        width: fit-content;
+        position: relative;
+        left: 14%;
+        font-size: xxx-large;
+}
+.content-center .continer .text-one{
+    text-transform: capitalize;
+        position: relative;
+            top: 30%;
+            left: 50%;
+            width: fit-content;
+            transform: translate(-50px, -50px);
+            line-height: 1.8;
+        }
+@media(max-width:767px){
+    .content-center .continer .text-one{
+        position: relative;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50px,-50px);
+    }
+}
+
+.content-center .continer h4{
+    width: 269px;
+    position: relative;
+    right: 35px;
+    top: -25px;
+}
+/* end section*/
+/* start landing */
+.landing .continer{
+    background-color: #f6f6f6;
+    margin-top: 300px;
+}
+@media(max-width:767px){
+    .landing .continer .id-new{
+        position: relative;
+        left: 145px;
+    }
+        .landing .continer span{
+            left: 15%;
+        }
+                .landing .continer .new-designs .one-design i{
+                    position: relative;
+                    left: 29%;
+                }
+                    .landing .continer .new-designs .two-design i{
+                        position: relative;
+                        left: 25%;
+                    }
+                    .landing .continer .new-designs .three-design i{
+                        position: relative;
+                        left: 56%;
+                    }
+                    .landing .continer .new-designs .one-design{
+                        position: relative;
+                        left: -65px;
+                    }
+                    .landing .continer .new-designs .two-design{
+                        position: relative;
+                        left: -60px;
+                    }
+                                                                                        .landing .continer .new-designs .four-design i {
+                                                                                            position: relative;
+                                                                                            left: 55%;
+                                                                                        }
+
+    }
+    @media(min-width:768px){
+        .landing .continer .id-new {
+            position: relative;
+            left: 50%;
+        }
+        .landing .continer span{
+            left: 43%;
+        }
+                        .landing .continer .new-designs .one-design i{
+                    position: relative;
+                    left: 33%;
+                }
+            .landing .continer .new-designs .two-design i{
+                position: relative;
+                left: 32%;
+            }
+            .landing .continer .new-designs .three-design i{
+                position: relative;
+                left: 62%;
+            }
+            .landing .continer .new-designs .one-design {
+                position: relative;
+                left: 0;
+            }
+
+            .landing .continer .new-designs .two-design {
+                position: relative;
+                left: 0;
+            }
+                        .landing .continer .new-designs .four-design i{
+                            position: relative;
+                            left: 61%;
+                        }
+}
+    .landing .continer .id-new{
+width: fit-content;
+    /* text-align: center; */
+    /* left: 50%; */
+    position: relative;
+    color: #ebebeb;
+    margin-top: 40px;
+    /* background: #fff; */
+    font-size: xxx-large;
+    font-weight: bolder;
+    padding-top: 25px;
+    letter-spacing: -3.6px;
+    }
+    .landing .continer span{
+        position: relative;
+            /* left: 43%; */
+            font-size: xxx-large;
+            font-weight: 900;
+    }
+    .landing .continer .new-designs .one-design i{
+        font-size: 30px;
+        position: relative;
+        /* left: 32%; */
+        top: 47px;
+    }
+    .landing .continer .new-designs .one-design h2{
+        position: relative;
+        left: 35%;
+        width: fit-content;
+        
+    }
+    .landing .continer .new-designs .two-design h2{
+        position: relative;
+        left: 35%;
+        width: fit-content;
+    }
+    .landing .continer .new-designs .two-design i{
+        font-size: 30px;
+            position: relative;
+            /* left: 32%; */
+            top: 47px;
+    }
+    .landing .continer .new-designs .three-design h2{
+position: relative;
+    left: 64%;
+    top: -200px;
+    width: fit-content;
+    }
+    .landing .continer .new-designs .three-design i{
+    font-size: 30px;
+        position: relative;
+        /* left: 62%; */
+        top: -150px;
+    }
+    .landing .continer .new-designs .four-design h2{
+position: relative;
+    left: 64%;
+    top: -200px;
+    width: fit-content;
+    }
+    .landing .continer .new-designs .four-design i{
+    font-size: 30px;
+        position: relative;
+        /* left: 61%; */
+        top: -150px;
+    }
+/* end landing */
+
