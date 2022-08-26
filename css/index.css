@@ -5,6 +5,7 @@
 }
 :root{
     --maincolor:darkorange;
+    --color: #fff;
 }
 html{
     scroll-behavior: smooth;
@@ -234,13 +235,13 @@ position: relative;
                         position: relative;
                         left: -60px;
                     }
-                                                                                        .landing .continer .new-designs .four-design i {
-                                                                                            position: relative;
-                                                                                            left: 55%;
-                                                                                        }
+                    .landing .continer .new-designs .four-design i {
+                        position: relative;
+                        left: 55%;
+                    }
 
     }
-    @media(min-width:768px){
+    @media(min-width:1200px){
         .landing .continer .id-new {
             position: relative;
             left: 50%;
@@ -264,16 +265,44 @@ position: relative;
                 position: relative;
                 left: 0;
             }
-
+            
             .landing .continer .new-designs .two-design {
                 position: relative;
                 left: 0;
             }
-                        .landing .continer .new-designs .four-design i{
-                            position: relative;
-                            left: 61%;
-                        }
-}
+            .landing .continer .new-designs .four-design i{
+                position: relative;
+                left: 61%;
+            }
+        }
+        @media(min-width:768px) and (max-width:992px){
+            .landing .continer .new-designs .three-design i{
+                position: relative;
+                left: 60%;
+                top: -150px;
+            }
+            .landing .continer .new-designs .two-design i {
+                position: relative;
+                left: 248px;
+                top: 48px;
+            }
+            .landing .continer .new-designs .four-design i{
+                position: relative;
+                left: 59%;
+            }
+            .landing .continer .new-designs .one-design i{
+                position: relative;
+                left: 32%;
+            }
+            .landing .continer .id-new{
+                position: relative;
+                left: 49%;
+            }
+            .landing .continer span{
+                position: relative;
+                left: 39%;
+            }
+} 
     .landing .continer .id-new{
 width: fit-content;
     /* text-align: center; */
@@ -341,4 +370,204 @@ position: relative;
         top: -150px;
     }
 /* end landing */
+/* landing plus */
+@media(max-width:767px){
+    .landing-plus .continer h2{
+        position: relative;
+        left: 33%;
+    }
+
+    .landing-plus .continer .img-1 {
+        position: relative;
+        left: 5%;
+        top: -30%;
+    }
+    
+    .landing-plus .continer .img-2 {
+        position: relative;
+        left: 12%;
+        top: -30%;
+    }
+    
+    .landing-plus .continer .img-3 {
+        position: relative;
+        left: 30%;
+        top: -20%;
+    }
+    .footer .continer h3{
+        position: relative;
+        left: 2%;
+    }
+    .footer .continer .div{
+        position: relative;
+        left: 240px;
+        width: fit-content;
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    .landing-plus .continer h2{
+        position: relative;
+        left: 44%;
+    }
+                .landing-plus .continer .img-1 {
+                    position: relative;
+                    left: 18%;
+                    top: -20%;
+                }
+        
+                .landing-plus .continer .img-2 {
+                    position: relative;
+                    left: 24%;
+                    top: -20%;
+                }
+        
+                .landing-plus .continer .img-3 {
+                    position: relative;
+                    left: 30%;
+                    top: -20%;
+                }
+                                                                                                                .footer .continer h3 {
+                                                                                                                    position: relative;
+                                                                                                                    left: 25%;
+                                                                                                                }
+}
+@media(min-width:1200px){
+    .landing-plus .continer h2{
+        position: relative;
+        left: 45%;
+    }
+        .landing-plus .continer .img-1 {
+            position: relative;
+            left: 20%;
+        }
+    
+        .landing-plus .continer .img-2 {
+            position: relative;
+            left: 32%;
+        }
+    
+        .landing-plus .continer .img-3 {
+            position: relative;
+            left: 43%;
+        }
+                .footer .continer .div {
+                    position: relative;
+                    left: 0;
+                }
+                                        .footer .continer h3 {
+                                            position: relative;
+                                            left: 25%;
+                                        }
+}
+.landing-plus .continer h2{
+position: relative;
+    /* left: 50%; */
+    width: fit-content;
+    padding-top: 20px;
+    letter-spacing: -2.2px;
+    font-size: xxx-large;
+    color: #efefef;
+    font-weight: 900;
+}
+.landing-plus .continer{
+    background-color: #f6f6f6;
+        margin-top: 290px;
+        height: 315px;
+}
+.landing-plus .continer .img-1{
+        width: 150px;
+            position: relative;
+            /* left: 20%; */
+            border-radius: 10px;
+}
+.landing-plus .continer .img-2{
+    width: 150px;
+        position: relative;
+        /* left: 32%; */
+        border-radius: 10px;
+}
+.landing-plus .continer .img-3{
+    width: 150px;
+        position: relative;
+        /* left: 43%; */
+        border-radius: 10px;
+        height: 100px;
+}
+/* end landing plus */
+/* footer */
+.footer .continer{
+    background-color: #000;
+    padding: 1px;
+        margin-top: 205px;
+}
+.footer .continer h3{
+    color: #fff;
+width: fit-content;
+    position: relative;
+    /* left: 25%; */
+}
+.footer .continer [title="span"]{
+    color: var(--maincolor);
+}
+.footer .continer .facebook{
+    font-size: 24px;
+        position: relative;
+        left: 60%;
+        top: -43px;
+        color: var(--color);
+
+        
+    }
+    .footer .continer .facebook i{
+        animation-timing-function: linear;
+                animation-duration: .9s;
+                    animation-name: up-down;
+                    animation-direction: alternate;
+                    animation-iteration-count: infinite;
+                    animation-play-state: running;
+    }
+    .footer .continer .github i{
+        animation-timing-function: linear;
+        animation-delay: .3s;
+                animation-duration: .9s;
+                    animation-name: up-down;
+                    animation-direction: alternate;
+                    animation-iteration-count: infinite;
+                    animation-play-state: running;
+    }
+    .footer .continer .instagram i{
+        animation-timing-function: linear;
+        animation-delay: .6s;
+                animation-duration: .9s;
+                    animation-name: up-down;
+                    animation-direction: alternate;
+                    animation-iteration-count: infinite;
+                    animation-play-state:running;
+    }
+.footer .continer i:hover{
+    animation-play-state: paused;
+}
+    @keyframes up-down{
+    to{
+        transform: translateY(-20px);
+    }
+}
+.footer .continer .github{
+    font-size: 24px;
+        position: relative;
+        left: 61%;
+        top: -43px;
+        color: var(--color);
+}
+.footer .continer .instagram{
+    font-size: 24px;
+        position: relative;
+        left: 62%;
+        top: -43px;
+        color: var(--color);
+}
+.footer .continer .div a{
+    color: var(--color);
+}
+/* end footer */
 
